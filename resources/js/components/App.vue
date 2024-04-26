@@ -30,4 +30,10 @@ export default {
         width: 100%;
         height: 100%;
     }
+    .dropdown-toggle::after{
+        display: none;
+    }
+    .dropdown-item{
+        cursor: pointer;
+    }
 </style>
