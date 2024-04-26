@@ -13,4 +13,7 @@ class Departement extends Model
     public function Poste(){
         return $this->hasMany(Poste::class);
     }
+    public function Employer(){
+        return $this->hasMany(Employer::class);
+    }
 }

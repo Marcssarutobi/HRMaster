@@ -14,4 +14,7 @@ class Poste extends Model
     public function departement(){
         return $this->belongsTo(Departement::class);
     }
+    public function Employer(){
+        return $this->hasMany(Employer::class);
+    }
 }

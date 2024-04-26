@@ -24,7 +24,6 @@ class DepartementController extends Controller
             "departement"=> $dep
         ]);
     }
-
     public function AllDerp(){
         $dep = Departement::orderBy('id','desc')->paginate(6);
         return response()->json([
@@ -61,10 +60,10 @@ class DepartementController extends Controller
         "dep"=>$dep
       ]);
     }
-    public function AllDerps(){
-        $dep = Departement::orderBy('id','desc')->get();
+    public function Depart(){
+        $dep = Departement::orderBy('id',"desc")->get();
         return response()->json([
-            "deps"=>$dep
-        ]);
+            "departements"=>$dep
+        ]); 
     }
 }

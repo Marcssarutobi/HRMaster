@@ -21,6 +21,14 @@ const routes = [
     {
         path: '/poste',
         component: ()=>import('./components/poste.vue')
+    },
+    {
+        path: '/employer',
+        component: ()=>import('./components/employer.vue')
+    },
+    {
+        path: '/depart',
+        component: ()=>import('./components/depart.vue')
     }
 ]
 const router = createRouter({

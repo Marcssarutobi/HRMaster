@@ -14,10 +14,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <router-link to="/employer">
                             <i class="fas fa-user"></i>
                             <span>Employer</span>
-                        </a>
+                        </router-link>
                     </li>
                     <li>
                         <router-link to="/poste">
@@ -25,6 +25,12 @@
                             <span>Poste</span>
                         </router-link>
                     </li>
+                    <li>
+                            <router-link to="/depart">
+                                <i class="fas fa-building"></i>
+                                <span>Département</span>
+                            </router-link>
+                        </li>
                     <li>
                         <a href="#">
                             <i class="fas fa-chart-simple"></i>
